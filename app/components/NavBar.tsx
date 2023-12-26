@@ -3,6 +3,7 @@ import { useState } from "react";
 
 // testing if git is working
 // testing git again
+// another one
 
 export default function NavBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
