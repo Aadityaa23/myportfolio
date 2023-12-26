@@ -1,6 +1,7 @@
 "use client"; // This is a client component 👈🏽
-
 import { useState } from "react";
+
+// testing if git is working
 
 export default function NavBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
