@@ -1,10 +1,6 @@
 "use client"; // This is a client component 👈🏽
 import { useState } from "react";
 
-// testing if git is working
-// testing git again
-// another one
-
 export default function NavBar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -18,14 +14,14 @@ export default function NavBar() {
 
 	return (
 		<>
-			<nav className="bg-gray-800">
+			<nav className="bg-emerald-950">
 				<div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
 					<div className="relative flex h-16 items-center justify-between">
 						<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 							{/* Mobile menu button*/}
 							<button
 								type="button"
-								className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+								className="relative inline-flex items-center justify-center rounded-md p-2 text-green-400 hover:bg-green-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
 								onClick={toggleSideBar}
 								aria-controls="mobile-menu"
 								aria-expanded="false"
@@ -80,29 +76,28 @@ export default function NavBar() {
 							</div>
 							<div className="hidden sm:ml-6 sm:block">
 								<div className="flex space-x-4">
-									{/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
+									{/* Current: "bg-green-900 text-white", Default: "text-green-300 hover:bg-green-700 hover:text-white" */}
 									<a
 										href="#"
-										className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
-										aria-current="page"
+										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 									>
 										Dashboard
 									</a>
 									<a
 										href="#"
-										className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 									>
 										Team
 									</a>
 									<a
 										href="#"
-										className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 									>
 										Projects
 									</a>
 									<a
 										href="#"
-										className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
 									>
 										Calendar
 									</a>
@@ -112,7 +107,7 @@ export default function NavBar() {
 						<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 							<button
 								type="button"
-								className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+								className="relative rounded-full bg-green-800 p-1 text-green-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-800"
 							>
 								<span className="absolute -inset-1.5"></span>
 								<span className="sr-only">View notifications</span>
@@ -137,7 +132,7 @@ export default function NavBar() {
 								<div>
 									<button
 										type="button"
-										className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+										className="relative flex rounded-full bg-green-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-800"
 										id="user-menu-button"
 										onClick={toggleMenu}
 										aria-expanded="false"
@@ -169,10 +164,10 @@ export default function NavBar() {
 										aria-labelledby="user-menu-button"
 										tabindex="-1"
 									>
-										{/* Active: "bg-gray-100", Not Active: "" */}
+										{/* Active: "bg-green-100", Not Active: "" */}
 										<a
 											href="#"
-											className="block px-4 py-2 text-sm text-gray-700"
+											className="block px-4 py-2 text-sm text-green-700"
 											role="menuitem"
 											tabindex="-1"
 											id="user-menu-item-0"
@@ -181,7 +176,7 @@ export default function NavBar() {
 										</a>
 										<a
 											href="#"
-											className="block px-4 py-2 text-sm text-gray-700"
+											className="block px-4 py-2 text-sm text-green-700"
 											role="menuitem"
 											tabindex="-1"
 											id="user-menu-item-1"
@@ -190,7 +185,7 @@ export default function NavBar() {
 										</a>
 										<a
 											href="#"
-											className="block px-4 py-2 text-sm text-gray-700"
+											className="block px-4 py-2 text-sm text-green-700"
 											role="menuitem"
 											tabindex="-1"
 											id="user-menu-item-2"
@@ -208,29 +203,28 @@ export default function NavBar() {
 				{isSideBarOpen && (
 					<div className="sm:hidden" id="mobile-menu">
 						<div className="space-y-1 px-2 pb-3 pt-2">
-							{/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
+							{/* Current: "bg-green-900 text-white", Default: "text-green-300 hover:bg-green-700 hover:text-white" */}
 							<a
 								href="#"
-								className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
-								aria-current="page"
+								className="text-green-300 hover:bg-green-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 							>
 								Dashboard
 							</a>
 							<a
 								href="#"
-								className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+								className="text-green-300 hover:bg-green-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 							>
 								Team
 							</a>
 							<a
 								href="#"
-								className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+								className="text-green-300 hover:bg-green-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 							>
 								Projects
 							</a>
 							<a
 								href="#"
-								className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+								className="text-green-300 hover:bg-green-900 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 							>
 								Calendar
 							</a>
