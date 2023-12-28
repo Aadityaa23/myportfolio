@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AadiPhoto from "./Aadi2.jpg";
+import AadiPhoto from "../../public/Aadi.jpg";
 
 export default function Intro() {
 	return (

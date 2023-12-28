@@ -11,7 +11,7 @@ export default function Hero() {
 						muted
 						playsInline
 						className="w-full h-full object-cover opacity-80"
-						src={require("./planethopf.mp4")}
+						src={require("../../public/planethopf.mp4")}
 					/>
 				</div>
 
