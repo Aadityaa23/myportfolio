@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import CCPd from "./components/CCPod";
+import PNV from "./components/PNV";
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<Intro></Intro>
 			<Experience></Experience>
 			<CCPd></CCPd>
+			<PNV></PNV>
 		</main>
 	);
 }
