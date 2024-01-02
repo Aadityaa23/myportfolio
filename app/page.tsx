@@ -4,6 +4,8 @@ import Intro from "./components/Intro";
 import Experience from "./components/Experience";
 import CCPd from "./components/CCPod";
 import PNV from "./components/PNV";
+import Education from "./components/Education";
+import Hobbies from "./components/Hobbies";
 
 export default function Home() {
 	return (
@@ -14,6 +16,8 @@ export default function Home() {
 			<Experience></Experience>
 			<CCPd></CCPd>
 			<PNV></PNV>
+			<Education></Education>
+			<Hobbies></Hobbies>
 		</main>
 	);
 }
