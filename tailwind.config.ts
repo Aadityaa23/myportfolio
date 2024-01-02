@@ -18,6 +18,7 @@ const config: Config = {
 				ytred: "#ff0000",
 				linkedinblue: "#0077b5",
 				spotifygreen: "#1DB954",
+				githubindigo: "#4078c0",
 			},
 		},
 	},
