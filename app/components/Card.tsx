@@ -4,19 +4,18 @@ import capImage from "./team2.jpg";
 export default function Card(props) {
 	const body = "";
 	const title = "";
-	const name = "team2";
 	const imagePath = "";
 
 	return (
 		<>
 			<div className="block rounded-lg bg-emerald-900 m-8 p-1 shadow-md">
 				<div
-					className="relative overflow-hidden bg-cover bg-no-repeat"
+					className="flex items-center justify-center relative overflow-hidden bg-cover bg-no-repeat"
 					data-te-ripple-init
 					data-te-ripple-color="light"
 				>
 					<Image
-						className="rounded-t-lg w-full h-auto"
+						className="rounded-t-lg w-auto h-56"
 						src={require(`../../public/${props.imagePath}.jpg`)}
 						alt=""
 					/>

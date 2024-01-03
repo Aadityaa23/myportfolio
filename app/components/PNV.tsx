@@ -17,7 +17,7 @@ export default function PNV() {
 					<Card
 						title="US 22 Pitch Comp"
 						body="This is the new body from the Projects and Volunteering section"
-						imagePath="team"
+						imagePath="CCThumbnail"
 					></Card>
 					<Card
 						title="Capstone Project"
@@ -32,19 +32,19 @@ export default function PNV() {
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 					<Card
-						title="US 22 Pitch Comp"
+						title="HackMelbourne Sponsorship Officer"
 						body="This is the new body from the Projects and Volunteering section"
-						imagePath="team"
+						imagePath="HackMelb"
 					></Card>
 					<Card
 						title="US 22 Pitch Comp"
 						body="This is the new body from the Projects and Volunteering section"
-						imagePath="team"
+						imagePath="slawn"
 					></Card>
 					<Card
 						title="Capstone Project"
 						body="This is the new body from the Projects and Volunteering section"
-						imagePath="capstone"
+						imagePath="unimelbLogo"
 					></Card>
 				</div>
 			</div>
