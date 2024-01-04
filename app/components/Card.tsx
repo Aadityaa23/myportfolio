@@ -18,12 +18,12 @@ export default function Card(props) {
 		<>
 			<div className="block rounded-lg bg-emerald-900 m-8 p-1 shadow-md">
 				<div
-					className="flex items-center justify-center relative overflow-hidden bg-cover bg-no-repeat"
+					className="flex items-center justify-center relative overflow-hidden bg-cover bg-no-repeat w-full h-44"
 					data-te-ripple-init
 					data-te-ripple-color="light"
 				>
 					<Image
-						className="rounded-t-lg w-auto h-56"
+						className="rounded-lg w-full object-fill "
 						src={require(`../../public/${props.imagePath}.jpg`)}
 						alt=""
 					/>
