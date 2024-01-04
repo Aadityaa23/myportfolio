@@ -1,5 +1,6 @@
 import Image from "next/image";
 import capImage from "./team2.jpg";
+import PopUp from "./PopUp";
 
 export default function Card(props) {
 	const body = "";
