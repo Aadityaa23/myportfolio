@@ -7,6 +7,7 @@ import PNV from "./components/PNV";
 import Education from "./components/Education";
 import Hobbies from "./components/Hobbies";
 import Footer from "./components/Footer";
+import Testimonial from "./components/Testimonial";
 
 export default function Home() {
 	return (
@@ -19,6 +20,7 @@ export default function Home() {
 			<PNV></PNV>
 			<Education></Education>
 			<Hobbies></Hobbies>
+			<Testimonial></Testimonial>
 			<Footer></Footer>
 		</main>
 	);
