@@ -6,7 +6,10 @@ import TelLogo from "../../public/TelstraLogo.png";
 export default function Experience() {
 	return (
 		<>
-			<div className="bg-green-950 flex flex-col items-center p-16">
+			<div
+				id="experience"
+				className="bg-green-950 flex flex-col items-center p-16"
+			>
 				<h2 className=" text-3xl mb-4">Professional Experience</h2>
 
 				{/* Section 1 */}

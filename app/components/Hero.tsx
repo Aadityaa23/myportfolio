@@ -16,7 +16,7 @@ export default function Hero() {
 				</div>
 
 				{/* Content Overlay */}
-				<div className="relative z-10 flex items-center justify-center h-full">
+				<div className="relative  flex items-center justify-center h-full">
 					{/* Your Hero Content Goes Here */}
 					<div className="text-white text-center">
 						<h1 className="text-4xl font-bold">Aaadityaa Gupta</h1>
