@@ -4,7 +4,10 @@ import Image from "next/image";
 export default function PNV() {
 	return (
 		<>
-			<div className="bg-green-950 flex flex-col items-center p-16">
+			<div
+				id="projects"
+				className="bg-green-950 flex flex-col items-center p-16"
+			>
 				{/* Projects */}
 				<h2 className=" text-3xl mb-4">Projects</h2>
 

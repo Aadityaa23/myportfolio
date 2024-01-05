@@ -1,7 +1,10 @@
 export default function Testimonial() {
 	return (
 		<>
-			<div className="flex flex-col items-center justify-center m-4 p-16 bg-green-100">
+			<div
+				id="testimonials"
+				className="flex flex-col items-center justify-center m-4 p-16 bg-green-100"
+			>
 				<svg
 					className="h-12  text-green-950"
 					viewBox="0 0 24 27"

@@ -40,12 +40,12 @@ export default function Card(props) {
 					</p>
 					<button
 						type="button"
-						className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-sm transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-md focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-lg"
+						className="inline-block rounded-lg px-6 py-2 text-xs font-medium  text-white shadow-sm transition duration-150 ease-in-out hover:bg-emerald-950 hover:shadow-lg focus:bg-emerald-950 focus:shadow-lg focus:outline-none focus:ring focus:ring-green-300"
 						data-te-ripple-init
 						data-te-ripple-color="light"
 						onClick={openPopUp}
 					>
-						Button
+						Learn More
 					</button>
 				</div>
 			</div>
@@ -101,19 +101,14 @@ export default function Card(props) {
 										</div>
 									</div>
 								</div>
-								<div className="bg-emerald-900 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+								<div className="bg-emerald-900 px-4 py-3 flex items-center justify-center sm:px-6">
 									<button
 										type="button"
-										className="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
-									>
-										Deactivate
-									</button>
-									<button
-										type="button"
-										className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+										aria-label="Close Pop Up"
+										className="mt-3 inline-flex justify-center rounded-md bg-green-300 px-3 py-2 text-sm text-gray-900 shadow-md ring-1 ring-inset ring-gray-300 hover:bg-white w-auto focus:bg-white"
 										onClick={closePopUp}
 									>
-										Cancel
+										Close
 									</button>
 								</div>
 							</div>

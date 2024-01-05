@@ -1,55 +1,34 @@
 "use client"; // This is a client component 👈🏽
 
+const navigation = [
+	{ name: "Home", href: "/", current: true },
+	{ name: "Experience", href: "/#experience", current: false },
+	{ name: "Projects", href: "/#projects", current: false },
+	{ name: "Education", href: "/#ducation", current: false },
+	{ name: "Testimonials", href: "/#testimonials", current: false },
+	{ name: "About Me", href: "/AboutMe", current: false },
+];
+
 export default function Footer() {
 	return (
 		<>
 			<div className="bg-black p-4">
 				<div className="flex flex-row items-center justify-center">
 					{/* Quick Links */}
-					{/* Create a section with a list of links that is centered to the div element which covers half the width of the screen */}
 					<div className="flex flex-col text-center w-1/2 p-2">
 						<h4>Quick Links</h4>
-						<ul className="flex flex-wrap space-x-16 items-center justify-center">
-							<li>
-								<a
-									href="#"
-									className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-								>
-									Home
-								</a>{" "}
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-								>
-									Home
-								</a>{" "}
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-								>
-									Home
-								</a>{" "}
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-								>
-									Home
-								</a>{" "}
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-								>
-									Home
-								</a>{" "}
-							</li>
+						<ul className="flex flex-wrap space-x-4 items-center justify-center px:4 md:px-20 ">
+							{navigation.map((item) => (
+								<li>
+									<a
+										key={item.name}
+										href={item.href}
+										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-2 py-2 text-sm font-medium"
+									>
+										{item.name}
+									</a>{" "}
+								</li>
+							))}
 						</ul>
 					</div>
 					{/* Social media logos */}
@@ -123,6 +102,10 @@ export default function Footer() {
 							</button>
 						</div>
 					</div>
+				</div>
+
+				<div className="flex items-center justify-center px-4 py-8 text-gray-400">
+					<h4>Made by @ Aadityaa Gupta</h4>{" "}
 				</div>
 			</div>
 		</>

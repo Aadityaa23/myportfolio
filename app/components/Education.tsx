@@ -4,7 +4,10 @@ import GradPhoto from "../../public/grad2.jpg";
 export default function Education() {
 	return (
 		<>
-			<div className="flex flex-col md:flex-row items-center justify-center bg-green-100 p-16 md:p-0">
+			<div
+				id="education"
+				className="flex flex-col md:flex-row items-center justify-center bg-green-100 p-16 md:p-0"
+			>
 				{/* Photo */}
 				<div className="md:w-1/2">
 					<Image
