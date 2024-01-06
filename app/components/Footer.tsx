@@ -39,7 +39,7 @@ export default function Footer() {
 								type="button"
 								onClick={() =>
 									window.open(
-										"https://www.instagram.com/curious.coconut/",
+										"https://www.instagram.com/aadityaa2001/",
 										"_blank"
 									)
 								}
@@ -61,7 +61,7 @@ export default function Footer() {
 								type="button"
 								onClick={() =>
 									window.open(
-										"https://www.linkedin.com/company/99156845/admin/feed/posts/",
+										"https://www.linkedin.com/in/aadityaagupta/",
 										"_blank"
 									)
 								}
@@ -82,10 +82,7 @@ export default function Footer() {
 							<button
 								type="button"
 								onClick={() =>
-									window.open(
-										"https://www.linkedin.com/company/99156845/admin/feed/posts/",
-										"_blank"
-									)
+									window.open("https://github.com/Aadityaa23", "_blank")
 								}
 								data-te-ripple-init
 								data-te-ripple-color="light"
