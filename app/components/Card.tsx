@@ -88,15 +88,22 @@ export default function Card(props) {
 									<div className="sm:flex sm:items-start">
 										<div className="text-center">
 											<h3
-												className="text-white font-semibold leading-6 "
+												className="text-white font-semibold text-xl pb-2 "
 												id="modal-title"
 											>
 												{props.title}
 											</h3>
-											<p className="text-sm text-gray-100">
-												Are you sure you want to deactivate your account? All of
-												your data will be permanently removed. This action
-												cannot be undone.
+											<p className="text-sm text-gray-100 pb-1">
+												{props.body1}
+											</p>
+											<p className="text-sm text-gray-100 pb-1">
+												{props.body2}
+											</p>
+											<p className="text-sm text-gray-100 pb-1">
+												{props.body3}
+											</p>
+											<p className="text-sm text-gray-100 pb-1 ">
+												{props.body4}
 											</p>
 										</div>
 									</div>
