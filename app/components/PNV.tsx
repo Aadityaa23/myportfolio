@@ -9,7 +9,7 @@ export default function PNV() {
 				className="bg-green-950 flex flex-col items-center py-16 px-4 md:px-16"
 			>
 				{/* Projects */}
-				<h2 className=" text-3xl mb-4">Projects</h2>
+				<h2 className="text-white text-3xl mb-4">Projects</h2>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 					<Card
@@ -35,7 +35,7 @@ export default function PNV() {
 
 				{/* Volunteering */}
 
-				<h2 className=" text-3xl my-8">Volunteering</h2>
+				<h2 className="text-white text-3xl my-8">Volunteering</h2>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 					<Card

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import bgimage from "../../public/herobg2.jpg";
 
-export default function Hero() {
+export default function Hero(props) {
 	return (
 		<main>
 			<div className="relative h-screen">
@@ -19,8 +19,8 @@ export default function Hero() {
 				<div className="relative  flex items-center justify-center h-4/5">
 					{/* Your Hero Content Goes Here */}
 					<div className="text-white text-center">
-						<h1 className="text-4xl font-bold">Aaadityaa Gupta</h1>
-						<p className="mt-4 text-lg">Your hero test goes here.</p>
+						<h1 className="text-4xl font-bold">{props.title} </h1>
+						<p className="mt-4 text-lg">{props.tagline}.</p>
 					</div>
 				</div>
 			</div>

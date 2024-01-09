@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<main>
 			<NavBar></NavBar>
-			<Hero></Hero>
+			<Hero title="Aadityaa Gupta" tagline="I don't know yet"></Hero>
 			<Intro></Intro>
 			<Experience></Experience>
 			<CCPd></CCPd>

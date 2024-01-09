@@ -8,7 +8,7 @@ export default function Hobbies() {
 	return (
 		<>
 			<div className="bg-green-950 flex flex-col items-center py-16 px-8">
-				<h2 className=" text-3xl mb-4">Hobbies and Passions</h2>
+				<h2 className="text-white text-3xl mb-4">Hobbies and Passions</h2>
 
 				{/* Section 1 */}
 				<div className="flex flex-col md:flex-row items-center justify-center my-8 md:px-8">
