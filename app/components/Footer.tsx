@@ -12,18 +12,18 @@ const navigation = [
 export default function Footer() {
 	return (
 		<>
-			<div className="bg-black p-4">
+			<div className="bg-black text-center p-4">
 				<div className="flex flex-row items-center justify-center">
 					{/* Quick Links */}
-					<div className="flex flex-col text-center w-1/2 p-2">
+					<div className="flex flex-col text-center w-1/2 p-1">
 						<h4>Quick Links</h4>
-						<ul className="flex flex-wrap space-x-4 items-center justify-center px:4 md:px-20 ">
+						<ul className="flex flex-wrap space-x-4 items-center justify-center4 md:px-20 ">
 							{navigation.map((item) => (
 								<li>
 									<a
 										key={item.name}
 										href={item.href}
-										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md px-2 py-2 text-sm font-medium"
+										className="text-green-300 hover:bg-green-900 hover:text-white rounded-md p-2 text-sm font-medium"
 									>
 										{item.name}
 									</a>{" "}
@@ -32,7 +32,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					{/* Social media logos */}
-					<div className="flex flex-col text-center w-1/2 p-2">
+					<div className="flex flex-col items-center justify-center w-1/2">
 						<h3>Social Media</h3>
 						<div className="flex flex-wrap items-center justify-center">
 							<button
@@ -45,7 +45,7 @@ export default function Footer() {
 								}
 								data-te-ripple-init
 								data-te-ripple-color="light"
-								className="bg-instapink mx-3 mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+								className="bg-instapink mx-3 mb-2 inline-block rounded-full p-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ export default function Footer() {
 								}
 								data-te-ripple-init
 								data-te-ripple-color="light"
-								className="bg-linkedinblue mx-3 mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+								className="bg-linkedinblue mx-3 mb-2 inline-block rounded-full p-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ export default function Footer() {
 								}
 								data-te-ripple-init
 								data-te-ripple-color="light"
-								className="bg-githubindigo mx-3 mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+								className="bg-githubindigo mx-3 mb-2 inline-block rounded-full p-2 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 							>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"

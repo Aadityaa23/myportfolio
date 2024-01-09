@@ -8,13 +8,19 @@ export default function CCPd() {
 	// Create a section of the website where I can share about my podcast
 	return (
 		<>
-			<div className="flex flex-col-reverse md:flex-row items-center justify-center bg-green-100 p-16">
+			<div className="flex flex-col-reverse md:flex-row items-center justify-center bg-green-100 py-16 px-8">
 				{/* Description */}
-				<div className="md:w-1/2 p-8">
-					<h2 className="text-black text-3xl font-bold mb-4">Podcast</h2>
-					<p className="text-gray-700 pb-4">
-						Your brief description goes here. Tell visitors about yourself, your
-						skills, and what you're passionate about.
+				<div className="md:w-1/2  pt-8 md:pt-0 px-2 md:px-8">
+					<h2 className="text-black text-3xl font-bold mb-4">
+						The Curious Coconut Podcast
+					</h2>
+					<p className="text-gray-900 pb-4">
+						I love books, tech, sustainability, and start-ups, this podcast is
+						my way of exporing all of those topics at once. As the title
+						suggests, we at the Curious Coconut are curious people at heart. So
+						with each episode we bring on a guest who is doing cool things about
+						a topic that we like, and then let our curious minds be nourished by
+						absorbing any knowledge they share.{" "}
 					</p>
 					{/*A button to link to the podcast*/}
 					<button className="bg-green-900 rounded-full py-2 mb-4 px-4  text-green-100 hover:bg-green-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white shadow-md hover:shadow-lg focus:shadow-lg ">
@@ -32,6 +38,7 @@ export default function CCPd() {
 							}
 							data-te-ripple-init
 							data-te-ripple-color="light"
+							aria-label="Youtube"
 							className="bg-ytred mx-3 mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 						>
 							<svg
@@ -54,6 +61,7 @@ export default function CCPd() {
 							}
 							data-te-ripple-init
 							data-te-ripple-color="light"
+							aria-label="Instagram"
 							className="bg-instapink mx-3 mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 						>
 							<svg
@@ -76,6 +84,7 @@ export default function CCPd() {
 							}
 							data-te-ripple-init
 							data-te-ripple-color="light"
+							aria-label="LinkedIn"
 							className="bg-linkedinblue mx-3 mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 						>
 							<svg
@@ -97,12 +106,13 @@ export default function CCPd() {
 							}
 							data-te-ripple-init
 							data-te-ripple-color="light"
+							aria-label="Spotify"
 							className="bg-spotifygreen p-3 mb-2 mx-3 text-xs font-medium uppercase inline-block rounded-full  leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
 						>
 							<Image
 								src={SpotifyLogo}
 								alt="Spotify Logo"
-								className="w-6 h-6 rounded-full"
+								className="w-4 h-4 rounded-full"
 							/>
 						</button>
 					</div>
@@ -111,7 +121,7 @@ export default function CCPd() {
 				<div className="md:w-1/3">
 					<Image
 						src={CCPodLogo}
-						alt="The Curious Cocnut Podcast Logo"
+						alt="The Curious Coconut Podcast Logo"
 						className="w-full h-auto shadow-md rounded-full"
 					/>
 					{/* Add three small logos for linking to youtube, spotify, and instagram */}

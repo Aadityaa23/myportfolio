@@ -6,7 +6,7 @@ export default function PNV() {
 		<>
 			<div
 				id="projects"
-				className="bg-green-950 flex flex-col items-center p-16"
+				className="bg-green-950 flex flex-col items-center py-16 px-4 md:px-16"
 			>
 				{/* Projects */}
 				<h2 className=" text-3xl mb-4">Projects</h2>

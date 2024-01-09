@@ -6,7 +6,7 @@ export default function Education() {
 		<>
 			<div
 				id="education"
-				className="flex flex-col md:flex-row items-center justify-center bg-green-100 p-16 md:p-0"
+				className="flex flex-col md:flex-row items-center justify-center bg-green-100 py-16 px-8 md:p-0"
 			>
 				{/* Photo */}
 				<div className="md:w-1/2">
@@ -18,7 +18,7 @@ export default function Education() {
 				</div>
 
 				{/* Description */}
-				<div className="md:w-1/2 p-8">
+				<div className="md:w-1/2 pt-8 md:pt-0 px-2 md:px-8">
 					<h2 className="text-black text-3xl font-bold mb-4">Education</h2>
 					<p className="text-gray-700">
 						Your brief description goes here. Tell visitors about yourself, your
