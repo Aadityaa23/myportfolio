@@ -23,7 +23,12 @@ export default function CCPd() {
 						absorbing any knowledge they share.{" "}
 					</p>
 					{/*A button to link to the podcast*/}
-					<button className="bg-green-900 rounded-full py-2 mb-4 px-4  text-green-100 hover:bg-green-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white shadow-md hover:shadow-lg focus:shadow-lg ">
+					<button
+						onClick={() =>
+							window.open("https://www.youtube.com/@Curious_Coconut", "_blank")
+						}
+						className="bg-green-900 rounded-full py-2 mb-4 px-4  text-green-100 hover:bg-green-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white shadow-md hover:shadow-lg focus:shadow-lg "
+					>
 						Checkout the latest episode!
 					</button>
 					{/* Logo container */}

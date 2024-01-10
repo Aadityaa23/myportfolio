@@ -1,3 +1,4 @@
+"use client"; // This is a client component 👈🏽
 import Image from "next/image";
 import GradPhoto from "../../public/grad.jpg";
 
@@ -45,6 +46,7 @@ export default function Education() {
 						</p>
 						<button
 							type="button"
+							onClick={() => window.open("/AboutMe/#education")}
 							className="bg-green-900 rounded-full pt-2 px-4 text-green-100 hover:bg-green-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white shadow-md hover:shadow-lg focus:shadow-lg "
 						>
 							Learn More
