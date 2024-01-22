@@ -16,7 +16,7 @@ export default function CCPd() {
 					</h2>
 					<p className="text-gray-900 pb-4">
 						I love books, tech, sustainability, and start-ups, this podcast is
-						my way of exporing all of those topics at once. As the title
+						my way of exploring all of those topics at once. As the title
 						suggests, we at the Curious Coconut are curious people at heart. So
 						with each episode we bring on a guest who is doing cool things about
 						a topic that we like, and then let our curious minds be nourished by

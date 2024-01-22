@@ -17,11 +17,11 @@ export default function Testimonial() {
 					/>
 				</svg>
 				<p className="text-gray-900 pt-4 px-2 text-center text-2xl md:mx-3 ">
-					"Aadi was very useful resource when tasked to test out the website and
-					provide insights. He was able to point out couple of user facing
+					"Aadi was a very useful resource when tasked to test out the website
+					and provide insights. He was able to point out couple of user facing
 					issues that we have never thought of as well as making sure the site
 					is really good for accessibility. The advice he gave was clear and to
-					this point and will definitely be incorporated in to the next version
+					the point and will definitely be incorporated in to the next version
 					of the product."
 				</p>
 				<div className="flex flex-col md:flex-row py-4 px-2 mb-2 ">

@@ -14,7 +14,7 @@ export default function Intro() {
 						knowledge. Whether it is learning how to code in order to build
 						accessible websites, honing storytelling skills to deliver engaging
 						business pitches, or even mastering the art of falling so I don’t
-						break any bones while skiing – I’m just in love the process.
+						break any bones while skiing – I’m just in love with the process.
 					</p>
 					<p className="text-gray-800 pb-1">
 						This chronic curiosity has led me to embrace diverse opportunities,

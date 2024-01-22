@@ -40,13 +40,13 @@ export default function Experience() {
 						<p className="text-gray-200">
 							In the second one I got involved with NAB’s Annual Stocktake,
 							where I conducted market research on NAB’s competitors to inform
-							NAB’s future strategies and create a 5-year plan.
+							NAB’s future strategies and their 5-year plan.
 						</p>
 						<p className="text-gray-200">
 							Lastly, I completed an industry project to improve employee
 							satisfaction and mental health at work, where I conducted numerous
 							employee interviews, collated the data, and presented my findings
-							along with a step-by-setp implementation plan to the S&I
+							along with a step-by-step implementation plan to the S&I
 							Leadership team.
 						</p>
 					</div>

@@ -32,7 +32,7 @@ export default function Education() {
 						</h5>
 						<p className="text-gray-800 pl-2">
 							Achieved Second Class Honours, and was rewarded the Leaders in
-							Communities Award, fro outstanding leadership and contribution to
+							Communities Award, for outstanding leadership and contribution to
 							the community.
 						</p>
 						<h3 className="text-black text-3xl font-bold mb-1 mt-3">
